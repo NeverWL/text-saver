@@ -4,18 +4,18 @@ This microservice allows clients to save and retrieve user-specific lists of wor
 
 ---
 
-## 🔌 Microservice Address
+## Microservice Address
 
 - Protocol: `ZeroMQ REP`
 - Address: `tcp://localhost:5555`
 
 ---
 
-## 📤 How to PROGRAMMATICALLY REQUEST Data
+## How to PROGRAMMATICALLY REQUEST Data
 
 To request data, send a **JSON message** over a ZeroMQ socket using the `REQ` pattern.
 
-### ✅ Request Parameters
+### Request Parameters
 
 | Parameter  | Type     | Required | Description                                   |
 |------------|----------|----------|-----------------------------------------------|
@@ -25,7 +25,7 @@ To request data, send a **JSON message** over a ZeroMQ socket using the `REQ` pa
 
 ---
 
-### 💡 Example Request (Python)
+### Example Request (Python)
 
 ```python
 import zmq
