@@ -48,4 +48,4 @@ print("Server response:", response)
 ---
 
 ### UML Diagram
-[alt text](UMLdiagram.png)
+![image](https://github.com/user-attachments/assets/8c69734e-0a21-44ff-9f8a-37c37faa1b1c)
