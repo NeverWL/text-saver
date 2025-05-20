@@ -48,4 +48,5 @@ print("Server response:", response)
 ---
 
 ### UML Diagram
-![image](https://github.com/user-attachments/assets/8c69734e-0a21-44ff-9f8a-37c37faa1b1c)
+
+![microserviceAUMLDiagram](https://github.com/user-attachments/assets/45a99c80-9b7b-4ecd-94ee-ec86f22a72e5)
