@@ -1,6 +1,6 @@
-# Multilingual Text Saver Microservice
+# Text Saver Microservice
 
-This microservice allows clients to save and retrieve user-specific lists of words extracted from images. It communicates over a **ZeroMQ socket** and stores data in **Google Firestore** using the Firebase Admin SDK.
+This microservice allows clients to save and retrieve user-specific text. It communicates over a **ZeroMQ socket** and stores data in **Google Firestore** using the Firebase Admin SDK.
 
 ---
 
