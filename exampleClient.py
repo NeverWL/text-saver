@@ -8,7 +8,7 @@ socket.connect("tcp://localhost:5555")
 save_request = {
     "user_id": "user_123",
     "action": "save",
-    "words": ["sin(x)", "translation", "multi-language"]
+    "words": ["This", "is", "awesome!"]
 }
 socket.send_json(save_request)
 print("Server response:", socket.recv_string())

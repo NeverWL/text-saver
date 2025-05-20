@@ -43,3 +43,9 @@ request = {
 socket.send_json(request)
 response = socket.recv_string()
 print("Server response:", response)
+```
+
+---
+
+### UML Diagram
+[alt text](UMLdiagram.png)
