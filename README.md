@@ -4,6 +4,29 @@ This microservice allows clients to save and retrieve user-specific text. It com
 
 ---
 
+## First-Time Setup Instructions
+
+Follow these steps to run the microservice for the first time.
+
+### 1. Install Required Python Packages
+
+```bash
+pip install pyzmq firebase-admin
+```
+
+### 2. Setup Firebase Admin SDK
+
+1. Go to the Firebase Console.
+2. Create a project (or use an existing one).
+3. Navigate to:
+`Project Settings > Service Accounts > Generate new private key`
+4. Download the .json key file and save it in your project folder (e.g., serviceAccountKey.json).
+
+### 3. Save the Server Code
+
+Save the server code in your repository found in `text_saver_server.py`. This completes the setup.
+
+
 ## Microservice Address
 
 - Protocol: `ZeroMQ REP`
